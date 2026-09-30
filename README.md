@@ -8,7 +8,7 @@ This public library contains the P2P overview and a structure for future modules
 
 Read the [P2P Payment Overview](modules/01-p2p/01_Raast_P2P_Payment_Overview.md). Its content is preserved unchanged from the supplied training package. GitHub displays the embedded Mermaid sequence diagrams.
 
-The interactive assessment is hosted separately. Ask your instructor for access; quiz source files and the answer key are not included here.
+The [interactive P2P quiz](https://raast-p2p-quiz.karim-jindani.chatgpt.site) is hosted separately and currently requires owner-granted access. Ask your instructor for access; quiz source files and the answer key are not included here.
 
 ## Curriculum
 

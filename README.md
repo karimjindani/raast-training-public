@@ -4,11 +4,15 @@ Technical training material for new engineers learning Raast, beginning with P2P
 
 This public library contains the P2P overview and a structure for future modules. Quiz source files and the answer key are held in a separate private maintainer repository.
 
-## Start with P2P
+## Start here
 
-Read the [P2P Payment Overview](modules/01-p2p/01_Raast_P2P_Payment_Overview.md). Its content is preserved unchanged from the supplied training package. GitHub displays the embedded Mermaid sequence diagrams.
+1. **Study the material:** Read the [P2P Payment Overview](modules/01-p2p/01_Raast_P2P_Payment_Overview.md) and work through its embedded sequence diagrams. GitHub displays the diagrams directly in the document.
+2. **Take the quiz:** Open the [Raast P2P interactive quiz](https://raast-p2p-quiz.karim-jindani.chatgpt.site) and answer all 20 questions.
+3. **Review your results:** Receive automatic scoring for nine questions, then download your responses for instructor review of the eleven written answers. The automatic score is not an overall pass or fail; written answers still need to be graded.
 
-The [interactive P2P quiz](https://raast-p2p-quiz.karim-jindani.chatgpt.site) is hosted separately and currently requires owner-granted access. Ask your instructor for access; quiz source files and the answer key are not included here.
+**If you cannot access the quiz, contact your instructor for access.**
+
+The overview is preserved unchanged from the supplied training package. Quiz source files and the answer key remain in the private maintainer repository.
 
 ## Curriculum
 

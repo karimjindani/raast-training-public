@@ -4,9 +4,9 @@ The P2P overview was imported unchanged from the owner's `Raast_P2P_Module_1_Tra
 
 The Alias Management overview in `modules/08-alias-management/` follows the supplied two-bank walkthrough of how a Raast ID is registered and moved. It keeps the customer story and the CAS steps a new joiner needs. It does not reproduce API paths, hosts, credentials, or test-case data.
 
-The P2M Issuing overview in `modules/03-p2m-issuing/` follows the supplied Open Connect direct-posting specifications for the customer's bank. It keeps the customer journeys: QR and merchant Raast ID payments, a merchant request to pay, a return, and a missing result. It does not reproduce API fields or QR tag maps.
+The P2M Issuing overview in `modules/03-p2m-issuing/` follows the supplied Open Connect direct-posting specifications for the customer's bank, with the four flows kept apart. Pay by alias starts with an alias inquiry. Static QR does not. Both wait for `pacs.002/AUTH`. Dynamic QR and a request to pay are checked against the open request, and the merchant side receives `pacs.008` as an advice. It does not reproduce API fields or QR tag maps.
 
-The P2M Acquiring overview in `modules/04-p2m-acquiring/` follows the supplied Open Connect acquiring specifications. It keeps merchant registration, an incoming customer payment, a dynamic QR, a request to pay, and a return. It does not reproduce API fields.
+The P2M Acquiring overview in `modules/04-p2m-acquiring/` follows the supplied Open Connect acquiring specifications. The sequence diagrams name the Merchant Acquiring System and Middleware. A merchant alias is only for pay by alias. Every received payment checks the DBA name and IBAN, then credits this bank or sends the credit to the bank that holds the account. It does not reproduce API fields.
 
 The Bulk Sending overview in `modules/05-bulk-payments/` follows the supplied Open Connect bulk-sending specifications. The bank channel calls Paysys, Paysys posts the batch to Raast, and later replies cover failed pre-validation accounts, a return payment, and the end-to-end status. The overview does not reproduce API fields, internal services, or queries. Bulk receiving is a placeholder.
 
